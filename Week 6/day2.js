@@ -1,11 +1,9 @@
 // Last Survivor
 
 function lastSurvivor(letters, coords) {
-    const arr = letters.split('')
-    while(coords.length > 0) {
-      let tmpPosition = coords.shift()
-      arr.splice(coords.shift(), 1)
-    }
-    
-    return arr[0]
+  letters = letters.split('');
+  for (let i = 0; i < coords.length; i++) {
+    letters.splice(coords[i], 1)
   }
+  return letters.join('')
+}
