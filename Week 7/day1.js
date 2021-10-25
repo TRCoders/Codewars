@@ -1,14 +1,15 @@
-// Find the stray number
+// FIXME: Get Full Name
 
-function stray(numbers) {
-    let nums = numbers[0]
-    
-    if (nums !== numbers[1] && nums !== numbers[2])
-      return nums;
-    
-    for (let i = 1; i < numbers.length; i++) {
-      if(nums !== numbers[i])
-        return numbers[i];
-    }
-    return 0;
+class Dinglemouse{
+
+  constructor( firstName, lastName ){
+    this.firstName = firstName
+    this.lastName = lastName
+    this.none = ""
   }
+  
+  getFullName(){
+    return (this.firstName + " " + this.lastName).trim()
+  }
+  
+}
