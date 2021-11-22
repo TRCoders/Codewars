@@ -1,8 +1,11 @@
-// You only need one - Beginner
+// Even numbers in an array
 
-function check(a, x) {
-    return a.includes(x)
+function evenNumbers(array, number) {
+
+return array.filter((even) => even % 2 === 0).slice(-number)
 }
 
-// Look through index to find matching array.
-// If found in index then function returns true.
+// Filter through array and add a function with param
+// Use Modulus to check for even numbers
+// Then add slice at the end of the function with number to get the start and end of array
+// Return the results

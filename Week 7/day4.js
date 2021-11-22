@@ -7,4 +7,4 @@ function getEvenNumbers(numbersArray){
 // Filter array of the function
 // Use Modulus to count the odd numbers
 // Check the array if it not equal to numbersArray
-// Returns array results
+// Returns even array results

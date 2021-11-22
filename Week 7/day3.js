@@ -5,4 +5,4 @@ function toNumberArray(stringarray){
 }
 
 // Use .map to call each element from array
-// Return the array with Number inside the function
+// Return the array with Number inside the function to convert strings into numbers
