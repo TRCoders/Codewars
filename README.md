@@ -1,4 +1,0 @@
-# Codewars
-Codewars
-
-Codewars Challenges
